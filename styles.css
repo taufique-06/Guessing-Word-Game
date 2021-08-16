@@ -1,0 +1,103 @@
+
+body 
+{
+  background-color: paleturquoise;
+  height:100%;
+  text-align:center;
+  font-size:22px;
+}
+
+.wrappper{
+  width:100%;
+  margin:0 auto;
+}
+
+
+
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100%;
+  text-transform: uppercase;
+  margin:5px 0;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+p{
+  font-size: 1.6em;
+}
+
+#alphabet {
+  margin:15px auto;
+  padding:0;
+  max-width:900px;
+}
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:35px;
+  height:30px;
+  padding-top:10px;
+  background-color: white;
+  color:black
+  cursor:pointer;
+  border: solid 1px white;
+  }  
+ #alphabet li:hover {
+      background-color: pink;
+      border: solid 1px white;
+      color:white;
+    }
+
+
+#user-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display:block;
+}
+
+#user-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+}
+
+}
+
+#mylives{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+}
+
+button{
+  background-color:black;
+  color:white;
+  border: solid 1px white;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+  
+}
+
+#catagory-name {
+  text-align: center;
+  padding-top: 80px;
+}
